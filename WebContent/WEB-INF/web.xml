@@ -17,5 +17,9 @@
     <filter-name>SecurityFilter</filter-name>
     <url-pattern>/*</url-pattern> <!-- Specifica il pattern URL a cui applicare il filtro -->
 </filter-mapping>
+<error-page>
+        <error-code>500</error-code>
+        <location>/WEB-INF/html/error.html</location>
+</error-page>
   
 </web-app>
