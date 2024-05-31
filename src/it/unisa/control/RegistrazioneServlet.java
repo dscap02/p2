@@ -40,7 +40,7 @@ public class RegistrazioneServlet extends HttpServlet {
         dataNascita = parti[2] + "-" + parti[1] + "-" + parti[0];
 		
 		try {
-			
+			 
 			UserBean user = new UserBean();
 			user.setNome(nome);
 			user.setCognome(cognome);
