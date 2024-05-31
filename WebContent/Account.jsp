@@ -13,7 +13,7 @@
 	<% UserBean us = (UserBean) request.getSession().getAttribute("currentSessionUser");
 		IndirizzoSpedizioneBean spedizione = (IndirizzoSpedizioneBean) request.getSession().getAttribute("spedizione");
 		MetodoPagamentoBean pagamento = (MetodoPagamentoBean) request.getSession().getAttribute("pagamento");%>
-
+ 
 	<%@ include file="./fragments/header.jsp" %>
 	<%@ include file="./fragments/menu.jsp" %>
 	

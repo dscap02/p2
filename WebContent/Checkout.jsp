@@ -15,7 +15,7 @@
 		
 		<% IndirizzoSpedizioneBean spedizione = (IndirizzoSpedizioneBean) request.getSession().getAttribute("spedizione");
 			MetodoPagamentoBean pagamento = (MetodoPagamentoBean) request.getSession().getAttribute("pagamento");%>
-	
+	 
 		<div id="main" class="clear">
 
 	<h2>Checkout</h2>

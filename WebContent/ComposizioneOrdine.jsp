@@ -16,7 +16,7 @@
 <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css">
 <title>Dettagli ordine</title>
 </head>
-<body>
+<body> 
 	<%@ include file="./fragments/header.jsp" %>
 	<%@ include file="./fragments/menu.jsp" %>
 	

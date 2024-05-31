@@ -14,7 +14,7 @@
 	<%@ include file="./fragments/menu.jsp" %>
 	
 	<div id="main" class="clear">
-	
+	 
 	<% 	Carrello cart = (Carrello) request.getSession().getAttribute("cart");
 		if(cart != null && !cart.isEmpty()){%>
 		
